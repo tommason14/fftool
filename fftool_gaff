@@ -1600,10 +1600,11 @@ class system(object):
             if nangle:
                 f.write('angle_style harmonic\n')
             if ndihed:
-                f.write('dihedral_style opls\n')
+                f.write('dihedral_style fourier\n')
+                f.write('improper_style cvff\n')
             f.write('\n')
             
-            f.write('special_bonds lj/coul 0.0 0.0 0.5\n\n')
+            f.write('special_bonds amber\n\n')
 
             f.write('pair_style hybrid lj/cut/coul/long 12.0 12.0\n')
             if not allpairs:
@@ -1779,15 +1780,16 @@ class system(object):
             if ndihed:
                 f.write('\nDihedral Coeffs\n\n')
                 for dht in self.dhtype:
-                    f.write("{0:4d} {1:12.6f} {2:12.6f} {3:12.6f} {4:12.6f}  "\
-                             "# {5}\n".format(dht.ityp + 1,
-                              dht.par[0] / ecnv, dht.par[1] / ecnv,
-                              dht.par[2] / ecnv, dht.par[3] / ecnv, dht.name))
+                    # for dihedral_style == 'fourier', 
+                    # expects dht.ityp + 1 (index) m(int) k(float) n(int) d(float) repeating
+                    # (already dealt with in the ff file provided)
+                    f.write("{0:4d} {1}  # {2}\n".format(dht.ityp + 1, 
+                                                         " ".join([str(i) for i in dht.par]),
+                                                         dht.name))
                 for dit in self.ditype:
-                    f.write("{0:4d} {1:12.6f} {2:12.6f} {3:12.6f} {4:12.6f}  "\
-                             "# {5}\n".format(ndht + dit.ityp + 1,
-                              dit.par[0] / ecnv, dit.par[1] / ecnv,
-                              dit.par[2] / ecnv, dit.par[3] / ecnv, dit.name))
+                    f.write("{0:4d} {1}  # {2}\n".format(dit.ityp + 1, 
+                                                         " ".join([str(i) for i in dit.par]),
+                                                         dit.name))
 
             f.write('\nAtoms\n\n')
             i = nmol = 0

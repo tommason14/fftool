@@ -1,0 +1,191 @@
+created by fftool
+
+24 atoms
+24 bonds
+36 angles
+60 dihedrals
+2 atom types
+2 bond types
+2 angle types
+4 dihedral types
+0.000000 10.000000 xlo xhi
+0.000000 10.000000 ylo yhi
+0.000000 10.000000 zlo zhi
+
+Masses
+
+   1   12.011  # CA
+   2    1.008  # HA
+
+Bond Coeffs
+
+   1   469.000956     1.400000  # CA-CA
+   2   367.005258     1.080000  # CA-HA
+
+Angle Coeffs
+
+   1    35.002390   120.000000  # CA-CA-HA
+   2    63.001912   120.000000  # CA-CA-CA
+
+Dihedral Coeffs
+
+   1     0.000000     7.250000     0.000000     0.000000  # CA-CA-CA-HA
+   2     0.000000     7.250000     0.000000     0.000000  # CA-CA-CA-CA
+   3     0.000000     7.250000     0.000000     0.000000  # HA-CA-CA-HA
+   4     0.000000     2.200000     0.000000     0.000000  # CA-CA-CA-HA
+
+Atoms
+
+      1       1    1  -0.1150  4.182723e+00  6.992374e+00  5.726918e+00  # CA benzene
+      2       1    1  -0.1150  3.543515e+00  6.322003e+00  6.776687e+00  # CA benzene
+      3       1    1  -0.1150  4.298555e+00  5.601636e+00  7.709954e+00  # CA benzene
+      4       1    1  -0.1150  5.692802e+00  5.551639e+00  7.593450e+00  # CA benzene
+      5       1    1  -0.1150  6.332011e+00  6.222009e+00  6.543681e+00  # CA benzene
+      6       1    1  -0.1150  5.576972e+00  6.942377e+00  5.610415e+00  # CA benzene
+      7       1    2   0.1150  3.600265e+00  7.548086e+00  5.006970e+00  # HA benzene
+      8       1    2   0.1150  2.467953e+00  6.360572e+00  6.866561e+00  # HA benzene
+      9       1    2   0.1150  3.805451e+00  5.084493e+00  8.519776e+00  # HA benzene
+     10       1    2   0.1150  6.275262e+00  4.995926e+00  8.313399e+00  # HA benzene
+     11       1    2   0.1150  7.407574e+00  6.183440e+00  6.453807e+00  # HA benzene
+     12       1    2   0.1150  6.070075e+00  7.459520e+00  4.800592e+00  # HA benzene
+     13       2    1  -0.1150  5.356580e+00  3.508543e+00  2.378292e+00  # CA benzene
+     14       2    1  -0.1150  6.516276e+00  4.292260e+00  2.348416e+00  # CA benzene
+     15       2    1  -0.1150  6.418826e+00  5.688353e+00  2.386213e+00  # CA benzene
+     16       2    1  -0.1150  5.161680e+00  6.300728e+00  2.453885e+00  # CA benzene
+     17       2    1  -0.1150  4.001984e+00  5.517011e+00  2.483761e+00  # CA benzene
+     18       2    1  -0.1150  4.099434e+00  4.120919e+00  2.445965e+00  # CA benzene
+     19       2    2   0.1150  5.431756e+00  2.431557e+00  2.349135e+00  # HA benzene
+     20       2    2   0.1150  7.486075e+00  3.819856e+00  2.296212e+00  # HA benzene
+     21       2    2   0.1150  7.313449e+00  6.292935e+00  2.363166e+00  # HA benzene
+     22       2    2   0.1150  5.086504e+00  7.377714e+00  2.483043e+00  # HA benzene
+     23       2    2   0.1150  3.032185e+00  5.989416e+00  2.535966e+00  # HA benzene
+     24       2    2   0.1150  3.204811e+00  3.516337e+00  2.469012e+00  # HA benzene
+
+Bonds
+
+      1    1       2       1  # CA-CA
+      2    1       3       2  # CA-CA
+      3    1       4       3  # CA-CA
+      4    1       5       4  # CA-CA
+      5    1       6       5  # CA-CA
+      6    2       7       1  # CA-HA
+      7    2       8       2  # CA-HA
+      8    2       9       3  # CA-HA
+      9    2      10       4  # CA-HA
+     10    2      11       5  # CA-HA
+     11    2      12       6  # CA-HA
+     12    1       1       6  # CA-CA
+     13    1      14      13  # CA-CA
+     14    1      15      14  # CA-CA
+     15    1      16      15  # CA-CA
+     16    1      17      16  # CA-CA
+     17    1      18      17  # CA-CA
+     18    2      19      13  # CA-HA
+     19    2      20      14  # CA-HA
+     20    2      21      15  # CA-HA
+     21    2      22      16  # CA-HA
+     22    2      23      17  # CA-HA
+     23    2      24      18  # CA-HA
+     24    1      13      18  # CA-CA
+
+Angles
+
+      1    1       2       1       7  # CA-CA-HA
+      2    2       2       1       6  # CA-CA-CA
+      3    1       7       1       6  # CA-CA-HA
+      4    2       1       2       3  # CA-CA-CA
+      5    1       1       2       8  # CA-CA-HA
+      6    1       3       2       8  # CA-CA-HA
+      7    2       2       3       4  # CA-CA-CA
+      8    1       2       3       9  # CA-CA-HA
+      9    1       4       3       9  # CA-CA-HA
+     10    2       3       4       5  # CA-CA-CA
+     11    1       3       4      10  # CA-CA-HA
+     12    1       5       4      10  # CA-CA-HA
+     13    2       4       5       6  # CA-CA-CA
+     14    1       4       5      11  # CA-CA-HA
+     15    1       6       5      11  # CA-CA-HA
+     16    1       5       6      12  # CA-CA-HA
+     17    2       5       6       1  # CA-CA-CA
+     18    1      12       6       1  # CA-CA-HA
+     19    1      14      13      19  # CA-CA-HA
+     20    2      14      13      18  # CA-CA-CA
+     21    1      19      13      18  # CA-CA-HA
+     22    2      13      14      15  # CA-CA-CA
+     23    1      13      14      20  # CA-CA-HA
+     24    1      15      14      20  # CA-CA-HA
+     25    2      14      15      16  # CA-CA-CA
+     26    1      14      15      21  # CA-CA-HA
+     27    1      16      15      21  # CA-CA-HA
+     28    2      15      16      17  # CA-CA-CA
+     29    1      15      16      22  # CA-CA-HA
+     30    1      17      16      22  # CA-CA-HA
+     31    2      16      17      18  # CA-CA-CA
+     32    1      16      17      23  # CA-CA-HA
+     33    1      18      17      23  # CA-CA-HA
+     34    1      17      18      24  # CA-CA-HA
+     35    2      17      18      13  # CA-CA-CA
+     36    1      24      18      13  # CA-CA-HA
+
+Dihedrals
+
+      1    1       3       2       1       7  # CA-CA-CA-HA
+      2    2       3       2       1       6  # CA-CA-CA-CA
+      3    3       8       2       1       7  # HA-CA-CA-HA
+      4    1       8       2       1       6  # CA-CA-CA-HA
+      5    2       4       3       2       1  # CA-CA-CA-CA
+      6    1       4       3       2       8  # CA-CA-CA-HA
+      7    1       9       3       2       1  # CA-CA-CA-HA
+      8    3       9       3       2       8  # HA-CA-CA-HA
+      9    2       5       4       3       2  # CA-CA-CA-CA
+     10    1       5       4       3       9  # CA-CA-CA-HA
+     11    1      10       4       3       2  # CA-CA-CA-HA
+     12    3      10       4       3       9  # HA-CA-CA-HA
+     13    2       6       5       4       3  # CA-CA-CA-CA
+     14    1       6       5       4      10  # CA-CA-CA-HA
+     15    1      11       5       4       3  # CA-CA-CA-HA
+     16    3      11       5       4      10  # HA-CA-CA-HA
+     17    1      12       6       5       4  # CA-CA-CA-HA
+     18    3      12       6       5      11  # HA-CA-CA-HA
+     19    2       1       6       5       4  # CA-CA-CA-CA
+     20    1       1       6       5      11  # CA-CA-CA-HA
+     21    2       2       1       6       5  # CA-CA-CA-CA
+     22    1       2       1       6      12  # CA-CA-CA-HA
+     23    1       7       1       6       5  # CA-CA-CA-HA
+     24    3       7       1       6      12  # HA-CA-CA-HA
+     25    4       2       6       1       7  # CA-CA-CA-HA
+     26    4       1       3       2       8  # CA-CA-CA-HA
+     27    4       2       4       3       9  # CA-CA-CA-HA
+     28    4       3       5       4      10  # CA-CA-CA-HA
+     29    4       4       6       5      11  # CA-CA-CA-HA
+     30    4       5       1       6      12  # CA-CA-CA-HA
+     31    1      15      14      13      19  # CA-CA-CA-HA
+     32    2      15      14      13      18  # CA-CA-CA-CA
+     33    3      20      14      13      19  # HA-CA-CA-HA
+     34    1      20      14      13      18  # CA-CA-CA-HA
+     35    2      16      15      14      13  # CA-CA-CA-CA
+     36    1      16      15      14      20  # CA-CA-CA-HA
+     37    1      21      15      14      13  # CA-CA-CA-HA
+     38    3      21      15      14      20  # HA-CA-CA-HA
+     39    2      17      16      15      14  # CA-CA-CA-CA
+     40    1      17      16      15      21  # CA-CA-CA-HA
+     41    1      22      16      15      14  # CA-CA-CA-HA
+     42    3      22      16      15      21  # HA-CA-CA-HA
+     43    2      18      17      16      15  # CA-CA-CA-CA
+     44    1      18      17      16      22  # CA-CA-CA-HA
+     45    1      23      17      16      15  # CA-CA-CA-HA
+     46    3      23      17      16      22  # HA-CA-CA-HA
+     47    1      24      18      17      16  # CA-CA-CA-HA
+     48    3      24      18      17      23  # HA-CA-CA-HA
+     49    2      13      18      17      16  # CA-CA-CA-CA
+     50    1      13      18      17      23  # CA-CA-CA-HA
+     51    2      14      13      18      17  # CA-CA-CA-CA
+     52    1      14      13      18      24  # CA-CA-CA-HA
+     53    1      19      13      18      17  # CA-CA-CA-HA
+     54    3      19      13      18      24  # HA-CA-CA-HA
+     55    4      14      18      13      19  # CA-CA-CA-HA
+     56    4      13      15      14      20  # CA-CA-CA-HA
+     57    4      14      16      15      21  # CA-CA-CA-HA
+     58    4      15      17      16      22  # CA-CA-CA-HA
+     59    4      16      18      17      23  # CA-CA-CA-HA
+     60    4      17      13      18      24  # CA-CA-CA-HA

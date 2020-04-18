@@ -1,0 +1,9 @@
+# created by fftool
+tolerance 2.5
+filetype xyz
+output simbox.xyz
+
+structure benzene_pack.xyz
+  number 2
+  inside box 1.5000 1.5000 1.5000 8.5000 8.5000 8.5000
+end structure
