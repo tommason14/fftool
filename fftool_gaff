@@ -2330,6 +2330,7 @@ def main():
     for sp in spec:
         print('  {0:20s} {1:5d}  {2:5s} {3:+8.4f}'.format(sp.name,
               sp.nmol, sp.topol, sp.charge()))
+        # Tom
         sp.show()
 
     sim = system(spec, box, args.mix)
